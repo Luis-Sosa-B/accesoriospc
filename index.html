@@ -4,69 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TechZone - Accesorios para PC</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: #f5f6fa;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #0a3d62;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #0a3d62;
-      margin-bottom: 10px;
-    }
-    p {
-      line-height: 1.6;
-    }
-    .contacto {
-      margin-top: 20px;
-      text-align: center;
-    }
-    a {
-      color: #0a3d62;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
   <header>
     <h1>💻 TechZone</h1>
     <p>Accesorios de calidad para tu PC Gamer</p>
   </header>
 
-  <main>
-    <h2>Sobre Nosotros</h2>
-    <p>
-      En <strong>TechZone</strong> ofrecemos los mejores accesorios para computadoras:
-      teclados mecánicos, mouse gamer, auriculares con micrófono, alfombrillas RGB y más.
-      ¡Todo lo que necesitas para mejorar tu experiencia frente al PC!
-    </p>
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
 
-    <h2>Contáctanos</h2>
-    <div class="contacto">
-      📧 <a href="mailto:contacto@techzone.com">contacto@techzone.com</a><br>
-      📱 Instagram: <a href="https://instagram.com/techzone_peru">@techzone_peru</a><br>
-      🌐 Facebook: <a href="https://facebook.com/techzoneperu">TechZone Perú</a>
-    </div>
+  <main>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        En <strong>TechZone</strong> ofrecemos productos gamer modernos, de calidad y al mejor precio.
+        Te ayudamos a mejorar tu experiencia frente a tu PC con accesorios de última generación.
+      </p>
+      <img src="img/banner.jpg" class="banner">
+    </section>
+
+    <!-- CATÁLOGO -->
+    <section id="catalogo">
+      <h2>Catálogo de Productos</h2>
+      <div class="catalogo">
+        
+        <div class="producto">
+          <img src="img/teclado.jpg" alt="Teclado Mecánico RGB">
+          <h3>Teclado Mecánico RGB</h3>
+          <p class="precio">S/ 120.00</p>
+        </div>
+        
+        <div class="producto">
+          <img src="img/mouse.jpg" alt="Mouse Gamer">
+          <h3>Mouse Gamer 7200 DPI</h3>
+          <p class="precio">S/ 59.90</p>
+        </div>
+
+        <div class="producto">
+          <img src="img/audifonos.jpg" alt="Audífonos Gamer">
+          <h3>Audífonos Gamer</h3>
+          <p class="precio">S/ 89.90</p>
+        </div>
+
+        <div class="producto">
+          <img src="img/alfombrilla.jpg" alt="Alfombrilla RGB XXL">
+          <h3>Alfombrilla RGB XXL</h3>
+          <p class="precio">S/ 45.00</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>Haz tu pedido ahora 🤩</p>
+      <p>
+        📧 Correo: <a href="mailto:contacto@techzone.com">contacto@techzone.com</a><br>
+        📱 Instagram: <a href="https://instagram.com/techzone_peru">@techzone_peru</a><br>
+        🌐 Facebook: <a href="https://facebook.com/techzoneperu">TechZone Perú</a><br>
+        📍 Envíos a todo el país ✅
+      </p>
+    </section>
+
   </main>
+
+  <footer>
+    © 2025 TechZone - Todos los Derechos Reservados
+  </footer>
+
 </body>
 </html>
