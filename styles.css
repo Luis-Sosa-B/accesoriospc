@@ -96,3 +96,44 @@ footer {
   color: #fff;
   margin-top: 25px;
 }
+/* ===============================
+   SECCIÓN: IMÁGENES DEL EXAMEN
+=================================*/
+
+#imagenes-examen {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#imagenes-examen h2 {
+  color: #0a3d62;
+  margin-bottom: 20px;
+}
+
+.imagenes-examen {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.imagenes-examen img {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenes-examen img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
